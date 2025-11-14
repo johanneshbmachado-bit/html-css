@@ -37,7 +37,24 @@
         </section>
 
         <section id="detalhes">
+            <h2>Deixeme apresentar</h2>
+            <article id="video">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vl0eatPehLs?si=5gl9MB2ITrv7E5YJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div> 
+            </article> <!-- Fim Article#video-->
+            
+            <article id="Ideias">
+                <h2>Minhas Ideias</h2>
+            </article><!--Fim Article-ideias-->
+            
+            <article id="Formacao">
+                <h2>Minhas Formacoes</h2>
+            </article> <!--FIm Article-formacao-->
 
+            <article id="Projetos">
+                <h2>Meus projetos</h2>
+            </article> <!--Fim Article-projetos-->
         </section>
 
     </main>
