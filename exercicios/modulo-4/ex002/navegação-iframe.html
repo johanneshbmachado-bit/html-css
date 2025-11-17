@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegações no Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 90vw;
+            height: 50vh;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegando no Iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum ea unde dicta perspiciatis accusantium ullam similique corrupti, aperiam exercitationem voluptas inventore soluta commodi odit. Iure incidunt enim necessitatibus rem suscipit?</p>
+    
+    <ul>
+        <li><a href="paginas-teste/teste-1.html" target="painel">Primeira Pag</a></li>
+        <li><a href="paginas-teste/teste-2.html" target="painel">Segunda Pag</a></li>
+        <li><a href="paginas-teste/teste-3.html" target="painel">Terceira Pag</a></li>
+        <li><a href="paginas-teste/pag-inicial.html" target="painel">Pag Inicial</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quod ex recusandae velit impedit harum ipsum autem veritatis eos nisi perspiciatis quas odio cum eaque sapiente cupiditate animi et ducimus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi beatae qui cumque fuga. Praesentium blanditiis beatae vero sint, corrupti ea debitis quia ex, necessitatibus numquam possimus dicta quidem facilis ipsa?</p>
+    <iframe name="painel" src="paginas-teste/pag-inicial.html">
+        <p>Infelizmente, seu navegador n e compativel!</p>
+    </iframe>
+</body>
+</html>
