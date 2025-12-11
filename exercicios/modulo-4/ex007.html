@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Outros elementos</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="ipc">Peças de Pc</label>
+            <select name="pc" id="ipc">
+                <option value="" selected>Esolha um :]</option>
+                <optgroup label="Peças-importantes">
+                <option value="PM">Plac-Mae</option>
+                <option value="FN">Fans</option>
+                <option value="PR">Processador</option>
+                <option value="MR">Memoria-Ram</option>
+                </optgroup>
+                <optgroup label="Acessorios">
+                    <option value="MS">Mouse</option>
+                    <option value="TE">Teclado</option>
+                    <option value="MP">Mouse-Pad</option>
+                    <option value="HS">Headset</option>
+                </optgroup>
+            </select>
+            <p>
+                <label for="icons">Consoles</label>
+                <input type="text" name="cons" id="icons" list="listcon">
+                <datalist id="listcon">
+                    <option value="XB">X-Box</option>
+                    <option value="PS">Playstation</option>
+                    <option value="NT">Nintendo</option>
+                    <option value="SM">Steam-Machine</option>
+                </datalist>
+                <p>
+                    <label for="idsc">Descrição</label> <br>
+                    <textarea name="dsc" id="idsc" cols="30" rows="10"></textarea>
+                </p>
+            </p>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
