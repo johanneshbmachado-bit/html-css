@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output em Forms</title>
+</head>
+<body>
+    <h1>Data de nascimento</h1>
+
+    <form action="cadastro.php">
+
+         <label for="ianot">Ano Atual: <input type="number" name="anot" id="ianot" min="2025" max="2025" required oninput="isoma.innerHTML= Number(ianot.value) - Number(inas.value)">
+        </label>
+
+        <label for="inas">Data de Nascimento: <input type="number" name="nas" id="inas" min="0" max="2025" required oninput="isoma.innerHTML= Number(ianot.value) - Number(inas.value)">
+        </label>
+
+        <label for="isoma">Soma</label>
+        <output name="soma" id="isoma">0</output>
+
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
