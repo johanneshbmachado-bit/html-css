@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Formato pra Impressora*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
