@@ -26,26 +26,30 @@ h1{
     font-size: 2em;
     padding: 3px;
 }
-h1:hover{
-    background-color:rgb(19, 161, 19);
-    transition: background-color 1s;
+
+
+div#burgue{
+    background-color: rgb(19, 161, 19);
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 
+
+menu{
+    display: none;
+}
 
 li{
+    background-color:rgb(19, 161, 19);
+    border-top: 2px solid rgb(1, 53, 1);
     padding: 5px;
-    margin-right: 3px;
     list-style: none;
-    display: inline;
-}
-li:hover{
-    background-color: rgb(19, 161, 19);
-    transition: background-color 1s;
-    border-radius: 3px;
+    text-align: center;
 }
 
+
 main{
-    display:block;
     background-color: white;
     width: 90vw;
     max-width: 599px;
@@ -55,3 +59,23 @@ main{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.541);
     border-radius: 10px;
 }
+
+
+
+
+
+
+
+/*Use depois na versao para pc
+
+h1:hover{
+    background-color:rgb(19, 161, 19);
+    transition: background-color 1s;
+}
+
+li:hover{
+    background-color: rgb(19, 161, 19);
+    transition: background-color 1s;
+    border-radius: 3px;
+}
+*/

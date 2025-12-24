@@ -9,8 +9,9 @@
 <body>
     <header>
         <h1>Jogos e Notícias</h1>
-        
-        <menu>
+
+        <div id="burgue" onclick="clikMenu()">Menu</div>
+        <menu id="itens">
             <ul>
                 <li>Home</li>
                 <li>Explore</li>
@@ -27,5 +28,15 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi asperiores unde soluta aperiam laudantium veritatis molestiae? Eaque sed et, repellendus vero debitis, fuga perferendis pariatur incidunt consequuntur sunt necessitatibus distinctio.</p>
         </article>
     </main>
+
+    <script>
+        function clikMenu(){
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
 </body>
 </html>
