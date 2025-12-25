@@ -6,7 +6,7 @@
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body>
+<body onresize="mudouTmanho()">
     <header>
         <h1>Jogos e Notícias</h1>
 
@@ -37,6 +37,12 @@
                 itens.style.display = "block"
             }
         }
+
+        function mudouTamanho()
+        if(window.innerWidth >= 600) 
+            iten.style.display = "block"
+
+        
     </script>
 </body>
 </html>
