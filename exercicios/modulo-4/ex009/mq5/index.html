@@ -6,7 +6,7 @@
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body onresize="mudouTmanho()">
+<body onresize="mudouTamanho()">
     <header>
         <h1>Jogos e Notícias</h1>
 
@@ -30,6 +30,15 @@
     </main>
 
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 600) {
+                itens.style.display = "block"
+            } else {
+                itens.style.display = "none"
+            }
+        }
+        
+
         function clikMenu(){
             if (itens.style.display == "block") {
                 itens.style.display = "none"
@@ -38,10 +47,7 @@
             }
         }
 
-        function mudouTamanho()
-        if(window.innerWidth >= 600) 
-            iten.style.display = "block"
-
+        
         
     </script>
 </body>
