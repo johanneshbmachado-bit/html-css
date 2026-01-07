@@ -8,11 +8,15 @@
         div.container{
           display: flex;
           background-color: red;
+          flex-flow: row wrap;
         }
 
-        p.itens{
-            flex: auto;
+        .itens{
+            text-align: center;
+            color: white;
+            border: 1px solid black;
             background-color: blue;
+            flex: auto;
         }
 
         
@@ -20,6 +24,8 @@
 </head>
 <body>
     <h1>Flex Blox</h1>
+
+
     <div class="container">
         <div class="itens">Exemplo de BLoco A</div>
         <div class="itens">Exemplo de BLoco B</div>
