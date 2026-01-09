@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Blox</title>
+    <style>
+        .container{
+          display: flex;
+          background-color: red;
+          align-items: flex-start;
+          height: 600px;
+        }
+
+        .itens{
+            background-color: blue;
+            width: 200px;
+            padding: 10px;
+        }
+
+        #i1{
+            align-self: auto;
+        }
+
+        #i2{
+            align-self: stretch;
+        }
+
+        #i3{
+            align-self: flex-end;
+        }
+
+        #i4{
+            align-self: center;
+        }
+
+        #i5{
+            align-self: flex-start;
+        }
+
+        #i6{
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Blox</h1>
+    <div class="container">
+        <div class="itens" id="i1">Exemplo de BLoco 1</div>
+        <div class="itens" id="i2">Exemplo de BLoco 2</div>
+        <div class="itens" id="i3">Exemplo de BLoco 3</div>
+        <div class="itens" id="i4">Exemplo de BLoco 4</div>
+        <div class="itens" id="i5">Exemplo de BLoco 5</div>
+        <div class="itens" id="i6">Exemplo de BLoco 6</div>
+    </div>
+</body>
+</html>
