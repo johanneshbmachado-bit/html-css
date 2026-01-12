@@ -8,26 +8,39 @@
         .container{
           display: flex;
           background-color: red;
+          flex-flow: row nowrap;
         }
 
         .itens{
-            flex: auto;
             background-color: blue;
             padding: 10px;
+            flex-basis: 150px;
+        }
+        .exA{
+            flex-grow: 1;
+            flex-shrink: 2;
         }
 
-        
+        .exC{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        .exF{
+            flex-grow: 2;
+            flex-shrink: 1;
+        }
     </style>
 </head>
 <body>
     <h1>Flex Blox</h1>
     <div class="container">
-        <div class="itens">Exemplo de BLoco A</div>
+        <div class="itens exA">Exemplo de BLoco A</div>
         <div class="itens">Exemplo de BLoco B</div>
-        <div class="itens">Exemplo de BLoco C</div>
+        <div class="itens exC">Exemplo de BLoco C</div>
         <div class="itens">Exemplo de BLoco D</div>
         <div class="itens">Exemplo de BLoco E</div>
-        <div class="itens">Exemplo de BLoco F</div>
+        <div class="itens exF">Exemplo de BLoco F</div>
     </div>
 
 </body>
