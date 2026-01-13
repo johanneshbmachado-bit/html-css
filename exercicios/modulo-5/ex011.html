@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Blox</title>
+    <style>
+        .container{
+          display: flex;
+          background-color: red;
+          flex-flow: row nowrap;
+        }
+
+        .itens{
+            background-color: blue;
+            padding: 10px;
+            flex-basis: 150px;
+        }
+        .exA{
+            flex: 1 4 150px;
+        }
+
+        .exC{
+            flex: 0 0 200px;
+        }
+
+        .exF{
+            flex: 4 1 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Blox</h1>
+    <div class="container">
+        <div class="itens exA">Exemplo de BLoco A</div>
+        <div class="itens">Exemplo de BLoco B</div>
+        <div class="itens exC">Exemplo de BLoco C</div>
+        <div class="itens">Exemplo de BLoco D</div>
+        <div class="itens">Exemplo de BLoco E</div>
+        <div class="itens exF">Exemplo de BLoco F</div>
+    </div>
+
+</body>
+</html>
