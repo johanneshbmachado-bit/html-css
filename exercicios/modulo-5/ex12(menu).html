@@ -11,41 +11,76 @@
             box-sizing: border-box;
         }
 
-        header{
-            background-color: gray;
-            color: white;
+        body{
+            background-color: rgb(189, 189, 189);
+            height: 100vh;
+            width: 100vw;
         }
 
-        nav > ul > li > a{
+        header{
+            display: flex;
+            background-color: gray;
             color: white;
-            text-decoration: none;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap:20px;
+            padding: 30px;
+        }
+
+        h1{
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.466);
+        }
+
+        nav{
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+
             
         }
 
-        body{
-            background-color: rgb(189, 189, 189);
+        a{
+            color: white;
+            text-decoration: none;
+            background-color: black;
+            padding: 10px; 
+            border-radius: 10px;
+            
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            width: 95%;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            
+            
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Menu Responsivo</h1>
+
         <nav>
-            <ul>
-                <li><a href="#">Opção1</a></li>
-                <li><a href="#">Opção2</a></li>
-                <li><a href="#">Opção3</a></li>
-                <li><a href="#">Opção4</a></li>
-                <li><a href="#">Opção5</a></li>
-                <li><a href="#">Opção6</a></li>
-            </ul>
+            <a href="#">Opção1</a>
+            <a href="#">Opção2</a>
+            <a href="#">Opção3</a>
+            <a href="#">Opção4</a>
+            <a href="#">Opção5</a>
+            <a href="#">Opção6</a>        
         </nav>
     </header>
     <main>
-        <section>
+        <section class="texto">
             <h2>Teste de Flex-box</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, sequi aliquam aut cumque laboriosam saepe, odio illum nobis laborum nam esse nulla qui quo tenetur ad illo, ducimus corporis. A.
-            Iusto error dolor commodi, voluptates aspernatur corporis consectetur vel soluta facilis ut autem saepe, alias, eveniet accusantium natus doloremque tenetur omnis? Nulla, unde consequatur perspiciatis porro esse odio repellat amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis similique provident distinctio nostrum quam, blanditiis placeat. Nemo eveniet tenetur, ipsam suscipit ipsum vero ex quam ad! Minima recusandae maxime quas.
+            Excepturi ipsum sed id. Quaerat similique dolore sit, ut laudantium aut repellendus dicta, et repudiandae qui enim. Ratione, recusandae voluptas. Explicabo aperiam perferendis placeat, quasi voluptas ratione esse illo molestias?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim tenetur ut veniam consectetur ullam nobis facere neque. Fugiat officiis necessitatibus sapiente officia quas, minus quasi atque illum nulla accusantium harum!
+            Molestias possimus fuga sunt molestiae ullam quidem earum recusandae minima, voluptatum rem quas, quisquam dolores impedit modi delectus hic voluptatibus iure omnis provident reiciendis voluptates quos? Alias ex ab beatae?
+            Molestiae aut eaque veniam tempore! Necessitatibus error deserunt nostrum. Optio minus animi tempore nostrum? Error itaque cumque, saepe omnis odio illo et voluptates tempora quibusdam deleniti autem. Ab, impedit quasi.</p>
         </section>
     </main>
 </body>
