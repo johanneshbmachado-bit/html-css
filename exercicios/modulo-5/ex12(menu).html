@@ -48,6 +48,7 @@
             background-color: black;
             padding: 10px; 
             border-radius: 10px;
+            text-align: center;
             
         }
         a:hover{
@@ -63,9 +64,14 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
 
-        @media screen and (max-width: 599px) {
+        @media screen and (max-width: 680px) {
+            header, nav{
+                flex-flow: column nowrap;
+            }
 
-            
+            header > nav{
+                width: 90vw;
+            }
         }
     </style>
 </head>
