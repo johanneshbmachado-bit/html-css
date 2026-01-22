@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteudo FLex</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-size: 1em;
+            line-height: 1.5em;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        header, .normal-cont, .flex-cont{
+            padding: 20px;
+        }
+
+        p, h1, h2{
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        section.flex-cont{
+            background-color: rgb(172, 172, 172);
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Conteudo Flex</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptate, repellat accusantium dolor commodi rerum molestiae odio debitis dolorem deleniti aspernatur quae quo, non saepe quis assumenda, error vel incidunt.</p>
+    </header>
+    
+    <main>
+        <section class="flex-cont">
+            <article class="media-text">
+
+                <div class="text">
+                    <h2>Exemplo Media-> Text</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas obcaecati et voluptates dicta sequi, labore ratione dolorem, harum similique illum ipsam cupiditate deserunt quaerat, rerum quisquam tempora aliquid optio ex!</p>
+                </div>
+
+                <div class="midia">
+                    <img src="Imagen de exemplo.png" alt="Conteudo flex">
+                </div>
+
+            </article>
+
+            <article class="text-media">
+                
+                <div class="text">
+                    <h2>Exemplo Text -> Media</h2>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi maxime fugit modi nam commodi excepturi deserunt quae nisi similique eligendi dolore ex alias, nesciunt iste neque velit repudiandae laboriosam.
+                </div>
+
+                <div class="midia">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PJLozYOo_r8?si=ZMKJ2s6V1XT-oPos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                </div>
+
+            </article>
+        </section>
+
+        <section class="normal-cont">
+            <h2>Conteudo Normal</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, itaque error ad necessitatibus explicabo quibusdam neque possimus officia! Quia beatae optio unde eum animi deserunt necessitatibus eius at magni aut.</p>
+        </section>
+    </main>
+</body>
+</html>
