@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout</title>
     <style>
-        
+        .container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            grid-gap: 10px;
+        }
+        .item{
+            background-color: blue;
+            border: 1px dotted white;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -14,9 +24,15 @@
     </header>
 
     <main>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nihil repellat! Iusto, nam. Officiis error consequuntur quis eos illum praesentium non dolores esse natus laboriosam dolorem libero, quaerat magni sint!</div>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nobis veritatis, rerum magni natus aliquam veniam sed minima</div>
-        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in possimus facere inventore dolore minus aliquid? Obcaecati id, nesciunt ex architecto cumque consequuntur dicta molestiae quod vitae at sit maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum possimus obcaeca</div>
+        <div class="container">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+        </div>
     </main>
 </body>
 </html>
