@@ -6,10 +6,18 @@
     <title>Grid Layout</title>
     <style>
         .container{
+            border:3px dotted green;
+            height: 600px;
+            width: 700px;
             display: grid;
             grid-template-columns: 100px 100px 100px;
             grid-template-rows: 100px 100px 100px;
             gap: 5px;
+            align-items: stretch;
+            justify-items: stretch;
+
+            align-content: space-between;
+            justify-content: space-around;
         }
         .item{
             background-color: blue;
@@ -33,6 +41,9 @@
             <div class="item">Item 4</div>
             <div class="item">Item 5</div>
             <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            <div class="item">Item 8</div>
+            <div class="item">Item 9</div>
         </div>
     </main>
 </body>
