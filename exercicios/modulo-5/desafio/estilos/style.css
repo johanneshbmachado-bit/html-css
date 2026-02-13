@@ -12,7 +12,10 @@
 }
 
 #topo{
-    grid-area: 1 / 1 / 2 / -1;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: -1;
 }
 
 #menu{
